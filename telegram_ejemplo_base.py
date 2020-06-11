@@ -90,10 +90,10 @@ def jalisco(bot, update, args):
 
 def consulta_ejecucion(bot, update):
     # funcion que consulta al servidor, por ejemplo para ver encuestas
-    db0 = MySQLdb.connect(host="",
-                         user="",
-                         passwd="",
-                         db="")
+    db0 = MySQLdb.connect(host="ip del host sql",
+                         user="tu usuario",
+                         passwd="tu clave",
+                         db="nombre de la bd")
 
     cur0 = db0.cursor()
 

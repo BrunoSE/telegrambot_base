@@ -15,9 +15,8 @@ update.effective_user.id: corresponde al ID del usuario, sirve por ejemplo para 
 ```
 
 ### Requerimientos
-python 3
-pip install python-telegram-bot
-pip install pandas
-pip install mysqlclient
-
-Una llave que se pide a BotFather dentro de la aplicación de telegram
+python 3\
+pip install python-telegram-bot\
+pip install pandas\
+pip install mysqlclient\
+Una llave o Token que se pide dentro de la aplicación de telegram mandando un mensaje a la cuenta @BotFather

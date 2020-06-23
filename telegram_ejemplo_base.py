@@ -93,7 +93,7 @@ def consulta_ejecucion(bot, update):
     db0 = MySQLdb.connect(host="ip del host sql",
                          user="tu usuario",
                          passwd="tu clave",
-                         db="nombre de la bd")
+                         db="nombre de la base de datos!")
 
     cur0 = db0.cursor()
 
